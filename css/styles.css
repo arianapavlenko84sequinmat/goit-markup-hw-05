@@ -700,9 +700,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 .modal-input-wrap {
     position: relative;
 }
-.modal-field {
-margin-bottom: 26px;
-}
+
 .modal-icon-name {
 position: absolute;
 }
