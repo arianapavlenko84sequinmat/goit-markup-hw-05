@@ -701,9 +701,18 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     position: relative;
 }
 
-.modal-icon-name {
+.modal-field {
+    margin-bottom: 26px;
+}
+.modal-icon {
 position: absolute;
 }
 .modal-input-name {
 position: absolute;
 }
+.modal-input-phone {
+        position: absolute;
+    }
+ .modal-input-email {
+     position: absolute;
+ }
