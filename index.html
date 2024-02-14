@@ -404,18 +404,38 @@
 </div>
     </div>
         <div class="modal-field">
-        <label for="user-phone">Phone</label>
-        <input type="text" name="user-phone" class="modal-input-phone" id="user-phone" />
+        <label for="user-phone" class="modal-label">Phone</label>
+        <div class="modal-input-wrap">
+        <input 
+        type="text" 
+        name="user-phone" 
+        class="modal-input-phone"
+         id="user-phone" />
         <svg class="modal-icon-phone" width="18" height="24">
             <use href="./images/icons.svg#icon-phone-black-18dp"></use>
         </svg>
         </div>
+        </div>
         <div class="modal-field">
-        <label for="user-email">Email</label>
-        <input type="text" name="user-email" class="modal-input-email" id="user-email" />
+        <label for="user-email" class="modal-label">Email</label>
+        <div class="modal-input-wrap">
+        <input 
+        type="text" 
+        name="user-email" 
+        class="modal-input-email" 
+        id="user-email" />
         <svg class="modal-icon-email" width="18" height="24">
             <use href="./images/icons.svg#icon-email-black-18dp"></use>
         </svg>
+    </div>
+        </div>
+        <div class="modal-field">
+            <label for="user-text" class="modal-label">Comment</label>
+            <textarea
+            name="user-text"
+            id="user-text"
+            class="modal-textarea"
+            placeholder="Text input"></textarea>
         </div>
         <button type="submit">Send</button>
     </form>
