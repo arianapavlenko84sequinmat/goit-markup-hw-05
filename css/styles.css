@@ -661,8 +661,9 @@ border-radius: 100%;
 background-color: #e7e9fc;
 stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.1);
-top: 24px;
-right: 24px;
+display: flex;
+margin-left: auto;
+margin-bottom: 24px;
 
 }
 .modal-title {
@@ -674,8 +675,8 @@ font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 72px;
     margin-bottom: 16px;
+   
 
 }
 .modal-input-name {
@@ -721,6 +722,9 @@ position: absolute;
  .modal-input-email {
      position: absolute;
  }
- .modal-label-comment {
-
+ .modal-textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
