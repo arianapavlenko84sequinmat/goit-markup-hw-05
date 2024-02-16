@@ -662,6 +662,8 @@ position: absolute;
 background-color: #e7e9fc;
 stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.1);
+top: 24px;
+right: 24px;
 
 }
 .modal-title {
@@ -669,10 +671,10 @@ stroke: rgba(0, 0, 0, 0.1);
 font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-     
-     text-align: center;
     color: #2e2f42;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 72px;
     margin-bottom: 16px;
 
