@@ -694,7 +694,8 @@ width: 100%;
 height: 40px;
 border-radius: 4px;
 border: 1px solid #4d5ae5;
-margin-bottom: 26px;
+padding-left: 38px;
+
 
 }
 
@@ -703,14 +704,14 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
     height: 40px;
-    margin-bottom: 26px;
+    
 }
 .modal-input-email {
 border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
     height: 40px;
-    margin-bottom: 26px;
+   
 }
 .modal-input-wrap {
     position: relative;
@@ -763,11 +764,8 @@ font-weight: 400;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.input {
-font-weight: 400;
-    font-size: 12px;
-    line-height: 117%;
-    letter-spacing: 0.04em;
+.modal-input {
+margin-bottom: 8px;
 }
 .button-send {
 width: 169px;
