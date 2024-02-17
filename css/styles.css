@@ -832,7 +832,7 @@ margin-bottom: 10px;
  .check-icon {
 fill: #f4f4fd;
 }
-.check-text span {
+.form-check {
 width: 16px;
 height: 16px;
 border-radius: 2px;
