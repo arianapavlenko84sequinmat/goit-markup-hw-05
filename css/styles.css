@@ -748,6 +748,8 @@ position: absolute;
         color: rgba(46, 47, 66, 0.4);
         padding-left: 16px;
         padding-top: 8px;
+
+        resize: none;
 }
 .modal-name {
     font-weight: 400;
@@ -777,9 +779,7 @@ font-weight: 400;
     display: block;
     margin-bottom: 4px;
 }
-.modal-input {
-margin-bottom: 8px;
-}
+
 .button-send {
 width: 169px;
 height: 56px;
@@ -811,4 +811,20 @@ fill: #2e2f42;
 }
 .modal-icon-email {
     fill: #2e2f42;
+}
+.check-text {
+font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    a {
+        line-height: 133%;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #4d5ae5;
+}
+}
+.modal-field-comment {
+margin-bottom: 10px;
 }
