@@ -801,6 +801,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 padding-right: 8px;
 
 
+
 }
 .is-open {
 opacity: 1;
@@ -827,4 +828,26 @@ font-size: 12px;
 }
 .modal-field-checkbox {
 margin-bottom: 24px;
+}
+
+.footer-title-subscribe {
+font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-btn {
+border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    background-color:#4d5ae5;
+    font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+}
+.icon-subscribe  {
+fill: #fff;
 }
