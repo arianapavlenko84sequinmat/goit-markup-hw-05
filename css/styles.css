@@ -641,6 +641,9 @@ fill: #f4f4fd;
     height: 100%;
     position: fixed;
     top: 0;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .modal {
 width: 408px;
@@ -655,6 +658,7 @@ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
     padding: 72px 24px 24px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close {
@@ -665,12 +669,28 @@ background-color: #e7e9fc;
 position: absolute;
 top: 24px;
 right: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 0;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.modal-close:hover, :focus {
+background-color: #404bbf;
+border: none;
 }
 .icon-close {
 fill: #2e2f42;
 padding-top: 8px;
 padding-left: 8px;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+.icon-clos:hover, :focus {
+fill: #ffffff;
 }
 
 .modal-title {
@@ -691,6 +711,8 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
     padding-left: 38px;
     background-color: transparent;
+    outline: transparent;
+    
 }
 
 .modal-input-wrap {
@@ -865,13 +887,9 @@ border-radius: 4px;
 
 fill: #fff;
 position: absolute;
-top: 8px;
-right: 24px;
-margin-left: 16px;
+
 }
-.social-media {
-padding-right: 80px;
-}
+
 .footer-form-email {
 display: flex;
 gap: 24px;
