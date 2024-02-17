@@ -847,3 +847,12 @@ visibility: visible;
 pointer-events: auto;
 
 }
+.footer-input {
+font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    background-color: transparent;
+    color: #fff;
+
+}
