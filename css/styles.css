@@ -823,7 +823,7 @@ font-weight: 400;
 .modal-field-comment {
 margin-bottom: 16px;
 }
- a {
+ .privacy {
      line-height: 133%;
      text-decoration: underline;
      text-decoration-skip-ink: none;
@@ -837,6 +837,7 @@ width: 16px;
 height: 16px;
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
+padding-right: 8px;
 
 
 }
