@@ -683,32 +683,16 @@ font-size: 16px;
     text-align: center;
 
 }
-.modal-input-name {
-width: 100%;
-height: 40px;
-border-radius: 4px;
-border: 1px solid #4d5ae5;
-padding-left: 38px;
-background-color: transparent;
 
-
-}
-
-.modal-input-phone {
+.modal-input {
 border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
     height: 40px;
+    padding-left: 38px;
     background-color: transparent;
 }
-.modal-input-email {
-border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    width: 100%;
-    height: 40px;
-    background-color: transparent;
-   
-}
+
 .modal-input-wrap {
     position: relative;
 }
