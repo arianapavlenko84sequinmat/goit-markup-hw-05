@@ -889,19 +889,18 @@ border-radius: 4px;
     font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
-        text-align: center;
         color: #ffffff;
         display: flex;
-        justify-content: center;
-        align-items: center;
         border: none;
         gap: 16px;
+        padding-left: 24px;
+        padding-top: 8px;
 }
 .icon-subscribe  {
-
 fill: #fff;
 position: absolute;
-margin-left: 16px;
+top: 8px;
+right: 8px;
 
 
 }
