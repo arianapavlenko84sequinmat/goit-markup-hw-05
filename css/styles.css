@@ -689,7 +689,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
-.icon-clos:hover, :focus {
+.icon-close:hover, :focus {
 fill: #ffffff;
 }
 
@@ -710,10 +710,16 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
     height: 40px;
     padding-left: 38px;
-    background-color: transparent;
     outline: transparent;
-    
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
 }
+.modal-input:focus {
+border-color: #4D5AE5;
+}
+
 
 .modal-input-wrap {
     position: relative;
@@ -730,15 +736,21 @@ margin-bottom: 8px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     font-weight: 400;
-        font-size: 12px;
-        line-height: 117%;
-        letter-spacing: 0.04em;
-        color: rgba(46, 47, 66, 0.4);
-        padding-left: 16px;
-        padding-top: 8px;
-
-        resize: none;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    padding: 8px 16px;
+    background-color: transparent;
+    resize: none;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-textarea:focus {
+border-color: #4D5AE5;
+}
+
 .modal-name {
     font-weight: 400;
         font-size: 12px;
@@ -768,7 +780,7 @@ font-weight: 400;
 }
 
 .button-send {
-width: 169px;
+min-width: 169px;
 height: 56px;
 border-radius: 4px;
     background: #4d5ae5;
@@ -781,8 +793,9 @@ font-weight: 500;
     color: #fff;
     top: 504px;
     right: 120px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
 
-   
 }
 
 .modal-icon {
@@ -791,11 +804,12 @@ left: 16px;
 top: 50%;
 transform: translateY(-50%);
 position: absolute;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 
-.check-text {
+. {
 font-weight: 400;
     font-size: 12px;
     line-height: 117%;
@@ -821,7 +835,6 @@ height: 16px;
 border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 padding-right: 8px;
-
 
 
 }
@@ -887,11 +900,30 @@ border-radius: 4px;
 
 fill: #fff;
 position: absolute;
+margin-left: 16px;
+
 
 }
 
 .footer-form-email {
 display: flex;
 gap: 24px;
+
+}
+.privacy {
+width: 16px;
+height: 16px;
+border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 2px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+}
+
+.form-check:checked + .label-checkbox.privacy {
+background-color: #404bbf;
+fill: #F4F4FD;
 
 }
