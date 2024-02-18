@@ -896,15 +896,16 @@ border-radius: 4px;
         letter-spacing: 0.04em;
         color: #ffffff;
         display: flex;
+        justify-content: center;
+        align-items: center;
         border: none;
-        gap: 16px;
+        
         padding-left: 24px;
-        padding-top: 8px;
+       
 }
 .icon-subscribe  {
 fill: #fff;
-
-
+margin-left: 16px;
 
 }
 
@@ -915,7 +916,7 @@ gap: 24px;
 }
 
 
-.form-check:checked + .privacy-span {
+.form-check:checked + .label-checkbox .privacy-span {
 background-color: #404bbf;
 fill: #F4F4FD;
 border: none;
