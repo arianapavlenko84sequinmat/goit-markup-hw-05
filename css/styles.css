@@ -688,12 +688,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
-.icon-close:hover {
+.icon-close:hover, :focus {
 fill: #ffffff;
 }
-.icon-close:focus {
-fill: #ffffff;
-}
+
 
 .modal-title {
     font-weight: 500;
