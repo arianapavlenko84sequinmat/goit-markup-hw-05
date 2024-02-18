@@ -689,7 +689,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 }
-.icon-close:hover, :focus {
+.icon-close:hover {
+fill: #ffffff;
+}
+.icon-close:focus {
 fill: #ffffff;
 }
 
@@ -712,15 +715,15 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+    background-color: transparent;
 
 }
 .modal-input:focus {
 border-color: #4D5AE5;
 }
-
-
+.modal-input:focus + .modal-icon {
+    fill: #4D5AE5;
+}
 .modal-input-wrap {
     position: relative;
 }
@@ -920,7 +923,7 @@ justify-content: center;
 fill: transparent;
 }
 
-.form-check:checked + .label-checkbox.privacy {
+.form-check:checked + .privacy {
 background-color: #404bbf;
 fill: #F4F4FD;
 
