@@ -915,9 +915,10 @@ gap: 24px;
 }
 
 
-.form-check:checked + .privacy {
+.form-check:checked + .privacy-span {
 background-color: #404bbf;
 fill: #F4F4FD;
+border: none;
 
 }
 .footer-subscribe {
