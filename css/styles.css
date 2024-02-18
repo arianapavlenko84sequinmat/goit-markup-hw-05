@@ -809,10 +809,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-. {
+.footer-label {
 font-weight: 400;
     font-size: 12px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
    
@@ -895,6 +895,7 @@ border-radius: 4px;
         justify-content: center;
         align-items: center;
         border: none;
+        gap: 16px;
 }
 .icon-subscribe  {
 
@@ -926,4 +927,7 @@ fill: transparent;
 background-color: #404bbf;
 fill: #F4F4FD;
 
+}
+.footer-subscribe {
+margin-left: 80px;
 }
